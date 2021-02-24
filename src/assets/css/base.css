@@ -1,0 +1,10 @@
+@import "./normalize.css";
+/* :root -> 获取根元素，就是html */
+:root{
+	--color-text:#ccc;
+	/* 定义一个变量 */
+}
+/* 
+	比如要改变h2的文字颜色为#ccc
+	h2{color:var(--color-text);}
+ */
